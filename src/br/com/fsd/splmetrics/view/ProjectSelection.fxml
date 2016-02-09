@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="170.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="170.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fsd.splmetrics.view.ProjectSelectionController">
    <children>
       <HBox layoutX="37.0" layoutY="67.0">
          <children>
@@ -22,7 +21,7 @@
          </children>
       </HBox>
       <Label layoutX="36.0" layoutY="29.0" text="Please select the project to calculate the metrics..." />
-      <Button defaultButton="true" layoutX="226.0" layoutY="124.0" mnemonicParsing="false" text="Apply" />
+      <Button defaultButton="true" layoutX="226.0" layoutY="124.0" mnemonicParsing="false" onMouseClicked="#handleApplyMetrics" text="Apply" />
       <Button cancelButton="true" layoutX="292.0" layoutY="124.0" mnemonicParsing="false" text="Cancel" />
    </children>
 </AnchorPane>

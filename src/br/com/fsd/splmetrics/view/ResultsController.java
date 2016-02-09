@@ -24,7 +24,7 @@ public class ResultsController {
      */
     public ResultsController() {
 
-    	ReadXML raiz = new ReadXML("model2.xml");
+    	ReadXML raiz = new ReadXML("model.xml");
 		NoF.setTotalFeatures(raiz.getRaiz());
 		
     }
@@ -36,6 +36,8 @@ public class ResultsController {
         fConcretesLabel.setText(String.valueOf(NoF.getConcretesFeatures()));
 
     }
+    
+    
 
     /**
      * É chamado pela aplicação principal para dar uma referência de volta a si mesmo.
