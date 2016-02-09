@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="170.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="37.0" layoutY="67.0">
+         <children>
+            <Label layoutX="37.0" layoutY="72.0" text="Project: ">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox layoutX="99.0" layoutY="67.0" prefHeight="25.0" prefWidth="264.0" promptText="..." />
+         </children>
+      </HBox>
+      <Label layoutX="36.0" layoutY="29.0" text="Please select the project to calculate the metrics..." />
+      <Button defaultButton="true" layoutX="226.0" layoutY="124.0" mnemonicParsing="false" text="Apply" />
+      <Button cancelButton="true" layoutX="292.0" layoutY="124.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>
